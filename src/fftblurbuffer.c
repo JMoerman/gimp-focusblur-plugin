@@ -23,8 +23,10 @@
 
 #include <string.h>
 #ifdef HAVE_COMPLEX_H
+#ifdef __STDC_IEC_559_COMPLEX__
 #  include <complex.h>
 #  include <math.h>
+#endif
 #endif
 #include <fftw3.h>
 #include <libgimp/gimp.h>

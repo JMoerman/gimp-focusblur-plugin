@@ -23,8 +23,10 @@
 #define __FOCUSBLUR_FFTBLUR_BUFFER_H__
 
 #ifdef HAVE_COMPLEX_H
+#ifdef __STDC_IEC_559_COMPLEX__
 #  include <complex.h>
 #  include <math.h>
+#endif
 #endif
 #include <fftw3.h>
 
