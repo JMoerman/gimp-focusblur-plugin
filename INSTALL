@@ -18,4 +18,9 @@ Current available options are:
     -DUSE_MP=<TRUE|FALSE>      Whether multithreading support should be enabled.
     -DUSE_FFTW3=<TRUE|FALSE>   Whether the FFTW3 library should be used.
     -DNO_COMPLEX_BUILTIN=<TRUE|FALSE> If TRUE complex.h will not be used.
-    -DPLUGIN_DIR="path"        Sets the installation directory.
+    -DPLUGIN_DIR="/some/path"  Sets the installation directory.
+
+Should any issues occur when using an old build directory ('build' in the
+instructions above) with updated source code it may be necessary to delete the
+contents of this directory and run cmake again. ('make clean' may not be enough
+if the build script itself is updated.)
