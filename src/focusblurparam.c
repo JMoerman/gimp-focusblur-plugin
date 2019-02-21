@@ -24,6 +24,8 @@
 #include <libgimp/gimp.h>
 
 #include "libgimp/stdplugins-intl.h"
+#include "gtk-2.0/gtk/gtk.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "focusblurparam.h"
 #include "focusblurrc.h"

@@ -22,7 +22,7 @@
 #ifndef __FOCUSBLUR_INTERFACE_H__
 #define __FOCUSBLUR_INTERFACE_H__
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 #include "focusblurtypes.h"
 

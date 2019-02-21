@@ -22,7 +22,7 @@
 #ifndef __FOCUSBLUR_TYPES_H__
 #define __FOCUSBLUR_TYPES_H__
 
-#include <glib/gmacros.h>
+#include <glib.h>
 
 
 G_BEGIN_DECLS

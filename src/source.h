@@ -24,8 +24,8 @@
 
 #include "config.h"
 
-#include <glib/gtypes.h>
-#include <libgimp/gimptypes.h>
+#include <glib.h>
+#include <libgimp/gimp.h>
 
 #include "focusblurtypes.h"
 #include "focusblurenums.h"

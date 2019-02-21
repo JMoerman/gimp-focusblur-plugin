@@ -22,7 +22,7 @@
 #ifndef __FOCUSBLUR_ENUMS_H__
 #define __FOCUSBLUR_ENUMS_H__
 
-#include <glib-object.h>
+#include <glib.h>
 
 G_BEGIN_DECLS
 

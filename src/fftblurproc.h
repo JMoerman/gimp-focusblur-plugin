@@ -23,8 +23,7 @@
 #define __FOCUSBLUR_FFTBLUR_PROC_H__
 
 
-#include <glib/gmacros.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 
 #include "focusblurtypes.h"
 

@@ -19,8 +19,7 @@
 #ifndef __AAA_H__
 #define __AAA_H__
 
-#include <glib/gmacros.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 
 
 G_BEGIN_DECLS

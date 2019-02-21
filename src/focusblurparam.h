@@ -22,10 +22,9 @@
 #ifndef __FOCUSBLUR_PARAM_H__
 #define __FOCUSBLUR_PARAM_H__
 
-#include <glib/gmacros.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 #include <gtk/gtkstyle.h>
-#include <libgimp/gimptypes.h>
+#include <libgimp/gimp.h>
 
 #include "focusblurtypes.h"
 #include "focusblurenums.h"

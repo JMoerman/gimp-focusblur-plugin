@@ -23,8 +23,7 @@
 #define __FOCUSBLUR_FFTBLUR_H__
 
 
-#include <glib/gmacros.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 #include <libgimpwidgets/gimpwidgetstypes.h>
 
 #include "focusblurparam.h"

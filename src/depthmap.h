@@ -22,7 +22,7 @@
 #ifndef __FOCUSBLUR_DEPTHMAP_H__
 #define __FOCUSBLUR_DEPTHMAP_H__
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 #include "focusblurtypes.h"
 #include "focusblurenums.h"

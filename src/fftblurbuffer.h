@@ -28,10 +28,9 @@
 #endif
 #include <fftw3.h>
 
-#include <glib/gmacros.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 #include <gtk/gtkstyle.h>
-#include <libgimp/gimptypes.h>
+#include <libgimp/gimp.h>
 #include <libgimpwidgets/gimpwidgetstypes.h>
 
 #include "focusblur.h"

@@ -23,7 +23,7 @@
 #define __FOCUSBLUR_DIFFUSION_H__
 
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 #include "focusblur.h"
 #include "focusblurtypes.h"

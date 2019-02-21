@@ -23,8 +23,9 @@
 
 #include <glib-object.h>
 #include <libgimpbase/gimpbasetypes.h>
-
 #include "libgimp/stdplugins-intl.h"
+
+#include "libgimp/gimp.h"
 
 #include "focusblurenums.h"
 

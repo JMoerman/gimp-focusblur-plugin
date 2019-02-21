@@ -27,6 +27,7 @@
 #include <glib/gstdio.h>
 #include <glib/gprintf.h>
 #include <libgimp/gimp.h>
+#include <libgimpbase/gimpbase.h>
 
 #include "libgimp/stdplugins-intl.h"
 

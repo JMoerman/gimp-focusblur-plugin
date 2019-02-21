@@ -22,7 +22,7 @@
 #ifndef __FOCUSBLUR_STOCK_H__
 #define __FOCUSBLUR_STOCK_H__
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 G_BEGIN_DECLS
 

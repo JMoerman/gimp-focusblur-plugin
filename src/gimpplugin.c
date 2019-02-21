@@ -22,6 +22,8 @@
 #include "config.h"
 
 #include <libgimp/gimp.h>
+#include "gtk-2.0/gtk/gtk.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "libgimp/stdplugins-intl.h"
 
@@ -116,8 +118,10 @@ run (const gchar         *name,
   drawable_ID = param[2].data.d_drawable;
 
 #ifdef ENABLE_MP
+#if !GLIB_CHECK_VERSION (2, 31, 0)
   if (! g_thread_supported ())
     g_thread_init (NULL);
+#endif
 #endif
 
   INIT_I18N ();

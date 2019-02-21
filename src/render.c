@@ -21,7 +21,10 @@
 
 #include "config.h"
 
+#include <gtk-2.0/gtk/gtk.h>
 #include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
+#include <libgimpwidgets/gimpwidgets.h>
 
 #include "libgimp/stdplugins-intl.h"
 

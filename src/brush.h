@@ -22,7 +22,7 @@
 #ifndef __FOCUSBLUR_BRUSH_H__
 #define __FOCUSBLUR_BRUSH_H__
 
-#include <glib/gtypes.h>
+#include <glib.h>
 #include "focusblurtypes.h"
 
 G_BEGIN_DECLS
